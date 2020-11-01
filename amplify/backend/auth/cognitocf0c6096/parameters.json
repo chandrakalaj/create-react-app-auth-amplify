@@ -59,8 +59,7 @@
     "authRoleArn": {
         "Fn::GetAtt": [
             "AuthRole",
-            "Arn",
-            "cid"
+            "Arn"
         ]
     },
     "unauthRoleArn": {
